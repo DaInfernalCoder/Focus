@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env.local
+.env*.local
+
+# Next.js
+.next/
+out/
+
+# Extension build
+apps/focus-extension/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF

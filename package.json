@@ -1,0 +1,14 @@
+{
+    "name": "focus-app",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+      "apps/*",
+      "packages/*"
+    ],
+    "scripts": {
+      "dev:web": "npm run dev --workspace=focus-scanner",
+      "build:web": "npm run build --workspace=focus-scanner",
+      "build:extension": "npm run build --workspace=focus-extension"
+    }
+  }

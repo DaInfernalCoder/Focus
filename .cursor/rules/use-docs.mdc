@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+When implementing a  technololgy ALWAYS query the context7 mcp doc to make sure it matches your trainin data. 
+
+Do this for 
+- supabase
+- shadcn 
+- any other tech
